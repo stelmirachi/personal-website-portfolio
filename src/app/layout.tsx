@@ -13,12 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stelcodes | Full Stack Developer",
-  description: "Personal portfolio and blog of Stelcodes.",
+  title: "StelCodes | Personal Portfolio",
+  description: "Personal portfolio and blog of StelCodes.",
 };
-
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default function RootLayout({
   children,
@@ -30,10 +27,8 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <Navbar />
+      <body className="h-full bg-white dark:bg-black text-black dark:text-white">
         {children}
-        <Footer />
       </body>
     </html>
   );

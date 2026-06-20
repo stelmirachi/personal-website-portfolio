@@ -10,10 +10,9 @@ export default function Navbar() {
         <div className="flex items-center gap-6 text-sm font-medium">
           <Link href="/about" className="hover:text-blue-600 transition-colors">About</Link>
           <Link href="/projects" className="hover:text-blue-600 transition-colors">Projects</Link>
+          <Link href="/blog" className="hover:text-blue-600 transition-colors">Blog</Link>
           <Link href="/contact" className="hover:text-blue-600 transition-colors">Contact</Link>
-          <Link href="/book" className="px-4 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors">
-            Book a Call
-          </Link>
+          <Link href="/book" className="px-4 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors">Book a Call</Link>
         </div>
       </div>
     </nav>
